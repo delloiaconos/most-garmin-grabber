@@ -6,7 +6,8 @@ Garmin Connect Activities downloader.
 
 Export environment:
 ```
-conda list --explicit > .\requirements.txt
+conda env export --from-history > .\conda.tx
+pip freeze > pip.txt
 ```
 
 Install environment requirements:
