@@ -6,6 +6,7 @@ Garmin Connect Activities downloader.
 
 Export environment:
 ```
+conda list -c > .\conda.txt
 conda env export --from-history > .\conda.tx
 pip freeze > pip.txt
 ```
