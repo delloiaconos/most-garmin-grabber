@@ -2,10 +2,12 @@
 for f in $(ls GarminRawData |grep -v .zip)
 do 
     dir=GarminRawData/$f
-    for fitf in $(ls $dir)
+    rm $dir/*.json.json
+    for fitf in $(ls $dir | grep -v .json)
         do
-       	 fitjson --pretty -o $dir/$fitf.json $dir/$fitf
+        echo "convert $dir/$fitf"
+       	time fitjson --pretty -o $dir/$fitf.json $dir/$fitf &
         done
 done
 
-find GarminRawData | grep .fit.json
+find GarminRawData | grep .fit.json > files.csv
