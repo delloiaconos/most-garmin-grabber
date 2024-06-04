@@ -167,3 +167,5 @@ cython_debug/
 credentials.txt
 GarminRawData/*
 dataset/*
+temp/*
+tmp/*
