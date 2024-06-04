@@ -164,6 +164,7 @@ cython_debug/
 *.zip
 *.fit
 *.csv
+*.xlsx
 credentials.txt
 GarminRawData/*
 dataset/*
