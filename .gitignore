@@ -170,3 +170,7 @@ GarminRawData/*
 dataset/*
 temp/*
 tmp/*
+
+# Pickel files
+*.pk
+*.pkb
