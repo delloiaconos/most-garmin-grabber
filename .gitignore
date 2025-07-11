@@ -166,7 +166,7 @@ cython_debug/
 *.csv
 *.xlsx
 credentials.txt
-GarminRawData/*
+DATASET/*
 dataset/*
 temp/*
 tmp/*
