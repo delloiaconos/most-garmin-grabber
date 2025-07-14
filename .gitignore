@@ -167,6 +167,7 @@ cython_debug/
 *.xlsx
 credentials.txt
 *.txt
+!requirements.txt
 
 # Pickel files
 *.pk
