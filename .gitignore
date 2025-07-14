@@ -166,11 +166,16 @@ cython_debug/
 *.csv
 *.xlsx
 credentials.txt
-DATASET/*
-dataset/*
-temp/*
-tmp/*
+*.txt
 
 # Pickel files
 *.pk
 *.pkb
+
+
+# Directories
+DATASET/*
+dataset/*
+outputs/*
+temp/*
+tmp/*
